@@ -44,14 +44,14 @@ export default function Search() {
                         size={32}
                         color='#000'
                     />
-                    <Text style={{ fontSize: 22 }}>Voltar</Text>
+                    <Text style={{ fontSize: 22 }}>Back</Text>
                 </TouchableOpacity>
 
                 <View style={styles.searchBox}>
                     <TextInput
                         value={input}
                         onChangeText={(value) => setInput(value)}
-                        placeholder='Ex: Timon, MA'
+                        placeholder='E.g.: San Francisco, CA'
                         style={styles.input}
                     />
                     <TouchableOpacity
@@ -95,14 +95,14 @@ export default function Search() {
                     size={32}
                     color='#000'
                 />
-                <Text style={{ fontSize: 22 }}>Voltar</Text>
+                <Text style={{ fontSize: 22 }}>Back</Text>
             </TouchableOpacity>
 
             <View style={styles.searchBox}>
                 <TextInput
                     value={input}
                     onChangeText={(value) => setInput(value)}
-                    placeholder='Ex: Timon, MA'
+                    placeholder='E.g.: San Francisco, CA'
                     style={styles.input}
                 />
                 <TouchableOpacity
